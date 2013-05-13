@@ -1,0 +1,32 @@
+@import "compass/utilities/general/clearfix"
+
+@function column-width($num: 1, $width: $base-width)
+	@return $num * ($width / $num-columns) - (2 * $margin)
+
+@function third-column-width($num: 1, $width: $base-width)
+	@return ($num * ($width / 3) - (2 * $margin))
+
+@mixin container
+	+pie-clearfix
+	position: relative
+	margin: 0 auto
+	padding: 0
+	width: $base-width
+
+@mixin column
+	float: left
+	display: inline
+	margin-left: $margin
+	margin-right: $margin
+
+@mixin row
+	+pie-clearfix
+	margin-bottom: 2 * $margin
+
+@mixin columns($num: 1)
+	+column
+	width: column-width($num, $base-width)
+
+@mixin third($num: 1)
+	+column
+	width: third-column-width($num, $base-width)

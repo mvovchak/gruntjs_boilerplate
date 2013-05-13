@@ -1,0 +1,19 @@
+.container
+	+container
+
+.column
+	+column
+	background-color: #eaeaea
+
+.row
+	+row
+
+@for $i from 1 to $num-columns
+	.column#{$i}
+		+columns($i)
+
+.whole-width
+	+columns($num-columns)
+
+.one-third
+	+third(1)

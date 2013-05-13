@@ -1,0 +1,30 @@
+@import "compass/css3/text-shadow"
+@import "compass/css3/images"
+.navbar
+	width: 100%
+	height: $navbar-height
+	+background(none, linear-gradient(top, $navbar-bg-color 0%, $navbar-bg-color 100%))
+	margin-left: 0
+	padding: 0
+	ul
+		float: right
+		display: table
+		vertical-align: middle
+		position: relative
+		margin: 0 auto
+		li
+			display: table-cell
+			text-align: center
+			padding-bottom: 0
+			margin: 0
+			line-height: $navbar-height
+			> a
+				text-decoration: none
+				display: block
+				padding: 0
+				padding-right: 16px
+				white-space: nowrap
+				color: $navbar-link-color
+				+single-text-shadow
+				&:hover
+					color: scale-lightness($navbar-link-color, 40%)
