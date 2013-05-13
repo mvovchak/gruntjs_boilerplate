@@ -30,77 +30,79 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 64, ../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html { font-size: 16px; line-height: 1.5em; }
 
-/* line 1, ../../src/sass/ui/_grid.sass */
+/* line 3, ../../src/sass/ui/_grid.sass */
 .container { *zoom: 1; position: relative; margin: 0 auto; padding: 0; width: 960px; }
 /* line 38, ../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .container:after { content: ""; display: table; clear: both; }
 
-/* line 4, ../../src/sass/ui/_grid.sass */
-.column { float: left; display: inline; margin-left: 10px; margin-right: 10px; background-color: #eaeaea; }
+/* line 6, ../../src/sass/ui/_grid.sass */
+.column { float: left; display: inline; margin-left: 8px; margin-right: 8px; margin-top: 0.45em; padding-top: 0.45em; padding-bottom: 0.45em; margin-bottom: 0.45em; background-color: #eaeaea; }
+/* line 10, ../../src/sass/ui/_grid.sass */
+.column:hover { background-color: #555555; -webkit-transition: background 0.6s ease-in-out; -moz-transition: background 0.6s ease-in-out; -o-transition: background 0.6s ease-in-out; transition: background 0.6s ease-in-out; }
 
-/* line 8, ../../src/sass/ui/_grid.sass */
-.row { *zoom: 1; margin-bottom: 20px; }
+/* line 14, ../../src/sass/ui/_grid.sass */
+.row { *zoom: 1; margin-bottom: 16px; }
 /* line 38, ../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .row:after { content: ""; display: table; clear: both; }
 
-/* line 12, ../../src/sass/ui/_grid.sass */
-.column1 { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 40px; }
-
-/* line 12, ../../src/sass/ui/_grid.sass */
-.column2 { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 100px; }
-
-/* line 12, ../../src/sass/ui/_grid.sass */
-.column3 { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 160px; }
-
-/* line 12, ../../src/sass/ui/_grid.sass */
-.column4 { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 220px; }
-
-/* line 12, ../../src/sass/ui/_grid.sass */
-.column5 { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 280px; }
-
-/* line 12, ../../src/sass/ui/_grid.sass */
-.column6 { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 340px; }
-
-/* line 12, ../../src/sass/ui/_grid.sass */
-.column7 { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 400px; }
-
-/* line 12, ../../src/sass/ui/_grid.sass */
-.column8 { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 460px; }
-
-/* line 12, ../../src/sass/ui/_grid.sass */
-.column9 { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 520px; }
-
-/* line 12, ../../src/sass/ui/_grid.sass */
-.column10 { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 580px; }
-
-/* line 12, ../../src/sass/ui/_grid.sass */
-.column11 { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 640px; }
-
-/* line 12, ../../src/sass/ui/_grid.sass */
-.column12 { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 700px; }
-
-/* line 12, ../../src/sass/ui/_grid.sass */
-.column13 { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 760px; }
-
-/* line 12, ../../src/sass/ui/_grid.sass */
-.column14 { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 820px; }
-
-/* line 12, ../../src/sass/ui/_grid.sass */
-.column15 { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 880px; }
-
-/* line 15, ../../src/sass/ui/_grid.sass */
-.whole-width { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 940px; }
+/* line 18, ../../src/sass/ui/_grid.sass */
+.col-1 { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 44px; }
 
 /* line 18, ../../src/sass/ui/_grid.sass */
-.one-third { float: left; display: inline; margin-left: 10px; margin-right: 10px; width: 300px; }
+.col-2 { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 104px; }
 
-/* line 3, ../../src/sass/ui/_navbar.sass */
-.navbar { width: 100%; height: 45px; background: none, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, #eeeeee)); background: none, -webkit-linear-gradient(top, #eeeeee 0%, #eeeeee 100%); background: none, -moz-linear-gradient(top, #eeeeee 0%, #eeeeee 100%); background: none, -o-linear-gradient(top, #eeeeee 0%, #eeeeee 100%); background: none, linear-gradient(top, #eeeeee 0%, #eeeeee 100%); margin-left: 0; padding: 0; }
-/* line 9, ../../src/sass/ui/_navbar.sass */
+/* line 18, ../../src/sass/ui/_grid.sass */
+.col-3 { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 164px; }
+
+/* line 18, ../../src/sass/ui/_grid.sass */
+.col-4 { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 224px; }
+
+/* line 18, ../../src/sass/ui/_grid.sass */
+.col-5 { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 284px; }
+
+/* line 18, ../../src/sass/ui/_grid.sass */
+.col-6 { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 344px; }
+
+/* line 18, ../../src/sass/ui/_grid.sass */
+.col-7 { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 404px; }
+
+/* line 18, ../../src/sass/ui/_grid.sass */
+.col-8 { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 464px; }
+
+/* line 18, ../../src/sass/ui/_grid.sass */
+.col-9 { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 524px; }
+
+/* line 18, ../../src/sass/ui/_grid.sass */
+.col-10 { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 584px; }
+
+/* line 18, ../../src/sass/ui/_grid.sass */
+.col-11 { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 644px; }
+
+/* line 18, ../../src/sass/ui/_grid.sass */
+.col-12 { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 704px; }
+
+/* line 18, ../../src/sass/ui/_grid.sass */
+.col-13 { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 764px; }
+
+/* line 18, ../../src/sass/ui/_grid.sass */
+.col-14 { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 824px; }
+
+/* line 18, ../../src/sass/ui/_grid.sass */
+.col-15 { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 884px; }
+
+/* line 21, ../../src/sass/ui/_grid.sass */
+.whole-width { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 944px; }
+
+/* line 24, ../../src/sass/ui/_grid.sass */
+.one-third { float: left; display: inline; margin-left: 8px; margin-right: 8px; width: 304px; }
+
+/* line 4, ../../src/sass/ui/_navbar.sass */
+.navbar { width: 100%; height: 45px; background: none, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, #eeeeee)); background: none, -webkit-linear-gradient(top, #eeeeee 0%, #eeeeee 100%); background: none, -moz-linear-gradient(top, #eeeeee 0%, #eeeeee 100%); background: none, -o-linear-gradient(top, #eeeeee 0%, #eeeeee 100%); background: none, linear-gradient(top, #eeeeee 0%, #eeeeee 100%); margin-left: 0; padding: 0; margin-bottom: 3em; }
+/* line 11, ../../src/sass/ui/_navbar.sass */
 .navbar ul { float: right; display: table; vertical-align: middle; position: relative; margin: 0 auto; }
-/* line 15, ../../src/sass/ui/_navbar.sass */
+/* line 17, ../../src/sass/ui/_navbar.sass */
 .navbar ul li { display: table-cell; text-align: center; padding-bottom: 0; margin: 0; line-height: 45px; }
-/* line 21, ../../src/sass/ui/_navbar.sass */
-.navbar ul li > a { text-decoration: none; display: block; padding: 0; padding-right: 16px; white-space: nowrap; color: #666666; text-shadow: 0px 0px 1px #aaaaaa; }
-/* line 29, ../../src/sass/ui/_navbar.sass */
-.navbar ul li > a:hover { color: #a3a3a3; }
+/* line 23, ../../src/sass/ui/_navbar.sass */
+.navbar ul li > a { text-decoration: none; display: block; padding: 0; margin-right: 16px; white-space: nowrap; color: #666666; padding-left: 0.5em; padding-right: 0.5em; text-shadow: 0px 0px 1px #aaaaaa; }
+/* line 33, ../../src/sass/ui/_navbar.sass */
+.navbar ul li > a:hover { color: #f0f0f0; background-color: #666666; -webkit-transition: background 0.6s linear; -moz-transition: background 0.6s linear; -o-transition: background 0.6s linear; transition: background 0.6s linear; }

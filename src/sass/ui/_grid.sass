@@ -1,15 +1,21 @@
+@import "compass/css3/transition"
+
 .container
 	+container
 
 .column
 	+column
+	+rhythm(.3,.3,.3,.3)
 	background-color: #eaeaea
+	&:hover
+		background-color: #555
+		+transition(background 0.6s ease-in-out)
 
 .row
 	+row
 
 @for $i from 1 to $num-columns
-	.column#{$i}
+	.col-#{$i}
 		+columns($i)
 
 .whole-width
